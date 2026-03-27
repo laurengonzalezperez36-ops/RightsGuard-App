@@ -53,9 +53,11 @@ RightsGuard helps immigrants understand their legal rights and find resources. T
 3. Unzip the file to your Desktop
 
 **Option B: Using Git (if installed)**
+
 bash
 git clone https://github.com/laurengonzalezperez36-ops/RightsGuard-App.git
 cd RightsGuard-App
+
 #### 3. Open Project in Xcode
 
 1. Navigate to the downloaded folder
@@ -153,13 +155,12 @@ That's it. Nothing else.
 - No external dependencies
 - No networking code
 
-**Architecture:**
-RightsGuard/
-├── Models/              # Data models (LegalResource, RightsArticle, etc.)
-├── ViewModels/          # Business logic and mock data
-├── Views/               # SwiftUI views
-│   └── SharedViews.swift
-└── RightsGuardApp.swift # App entry point
+**Project Structure:**
+- `Models/` - Data models (LegalResource, RightsArticle, IntakeFormData)
+- `ViewModels/` - Business logic and mock data services
+- `Views/` - SwiftUI views and shared components
+- `RightsGuardApp.swift` - App entry point with language settings
+
 ---
 
 ## 🤝 Contributing
