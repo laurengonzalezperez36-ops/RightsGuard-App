@@ -55,7 +55,9 @@ RightsGuard helps immigrants understand their legal rights and find resources. T
 **Option B: Using Git (if installed)**
 
 bash
+
 git clone https://github.com/laurengonzalezperez36-ops/RightsGuard-App.git
+
 cd RightsGuard-App
 
 #### 3. Open Project in Xcode
