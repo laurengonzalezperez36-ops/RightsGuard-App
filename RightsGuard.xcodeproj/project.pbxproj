@@ -6,6 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		082F13692F584A4700176A1E /* LanguageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F13682F584A3900176A1E /* LanguageSettings.swift */; };
+		082F136C2F58CBFC00176A1E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F136B2F58CBEF00176A1E /* SettingsView.swift */; };
+		082F136E2F58D27A00176A1E /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F136D2F58D26900176A1E /* PrivacyPolicyView.swift */; };
+		082F13702F5D512800176A1E /* RightsArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F136F2F5D512000176A1E /* RightsArticle.swift */; };
+		082F13732F5D52AC00176A1E /* RightsLibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F13722F5D528700176A1E /* RightsLibraryViewModel.swift */; };
+		082F13752F5D53E400176A1E /* RightsLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F13742F5D53D900176A1E /* RightsLibraryView.swift */; };
+		082F13772F5D541600176A1E /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F13762F5D540E00176A1E /* SharedViews.swift */; };
+		082F13792F5D588C00176A1E /* RightsArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F13782F5D587E00176A1E /* RightsArticleDetailView.swift */; };
+		082F137B2F5D5E6F00176A1E /* LegalResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F137A2F5D5E6600176A1E /* LegalResource.swift */; };
+		082F137D2F5D5EFF00176A1E /* ResourceDirectoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F137C2F5D5EEF00176A1E /* ResourceDirectoryViewModel.swift */; };
+		082F137F2F5D61C400176A1E /* ResourceDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F137E2F5D61B300176A1E /* ResourceDirectoryView.swift */; };
+		082F13812F5D681C00176A1E /* ResourceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F13802F5D680D00176A1E /* ResourceDetailView.swift */; };
+		08AC3E492F692975002D06B5 /* IntakeFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC3E482F69296B002D06B5 /* IntakeFormData.swift */; };
+		08AC3E4B2F6929C8002D06B5 /* IntakeFormData+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC3E4A2F6929A6002D06B5 /* IntakeFormData+Extensions.swift */; };
+		08AC3E4D2F6929F8002D06B5 /* IntakeFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC3E4C2F6929F2002D06B5 /* IntakeFormView.swift */; };
+		08AC3E4F2F692B51002D06B5 /* IntakeFormViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC3E4E2F692B44002D06B5 /* IntakeFormViewModels.swift */; };
+		08AC3E512F6ABE5D002D06B5 /* MatchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC3E502F6ABE56002D06B5 /* MatchResultsView.swift */; };
+		08AC3E5B2F760057002D06B5 /* PrivacyArchitecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC3E5A2F760052002D06B5 /* PrivacyArchitecture.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		082F13492F526FE400176A1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +48,24 @@
 		082F13392F526FE000176A1E /* RightsGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RightsGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		082F13482F526FE400176A1E /* RightsGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RightsGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		082F13522F526FE400176A1E /* RightsGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RightsGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		082F13682F584A3900176A1E /* LanguageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSettings.swift; sourceTree = "<group>"; };
+		082F136B2F58CBEF00176A1E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		082F136D2F58D26900176A1E /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		082F136F2F5D512000176A1E /* RightsArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightsArticle.swift; sourceTree = "<group>"; };
+		082F13722F5D528700176A1E /* RightsLibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightsLibraryViewModel.swift; sourceTree = "<group>"; };
+		082F13742F5D53D900176A1E /* RightsLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightsLibraryView.swift; sourceTree = "<group>"; };
+		082F13762F5D540E00176A1E /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
+		082F13782F5D587E00176A1E /* RightsArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightsArticleDetailView.swift; sourceTree = "<group>"; };
+		082F137A2F5D5E6600176A1E /* LegalResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalResource.swift; sourceTree = "<group>"; };
+		082F137C2F5D5EEF00176A1E /* ResourceDirectoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDirectoryViewModel.swift; sourceTree = "<group>"; };
+		082F137E2F5D61B300176A1E /* ResourceDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDirectoryView.swift; sourceTree = "<group>"; };
+		082F13802F5D680D00176A1E /* ResourceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDetailView.swift; sourceTree = "<group>"; };
+		08AC3E482F69296B002D06B5 /* IntakeFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeFormData.swift; sourceTree = "<group>"; };
+		08AC3E4A2F6929A6002D06B5 /* IntakeFormData+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IntakeFormData+Extensions.swift"; sourceTree = "<group>"; };
+		08AC3E4C2F6929F2002D06B5 /* IntakeFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeFormView.swift; sourceTree = "<group>"; };
+		08AC3E4E2F692B44002D06B5 /* IntakeFormViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeFormViewModels.swift; sourceTree = "<group>"; };
+		08AC3E502F6ABE56002D06B5 /* MatchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResultsView.swift; sourceTree = "<group>"; };
+		08AC3E5A2F760052002D06B5 /* PrivacyArchitecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyArchitecture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +114,8 @@
 		082F13302F526FE000176A1E = {
 			isa = PBXGroup;
 			children = (
-				082F133B2F526FE000176A1E /* RightsGuard */,
+				08AC3E5A2F760052002D06B5 /* PrivacyArchitecture.swift */,
+				082F13652F5849BA00176A1E /* Models */,
 				082F134B2F526FE400176A1E /* RightsGuardTests */,
 				082F13552F526FE400176A1E /* RightsGuardUITests */,
 				082F133A2F526FE000176A1E /* Products */,
@@ -90,6 +130,47 @@
 				082F13522F526FE400176A1E /* RightsGuardUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		082F13652F5849BA00176A1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08AC3E4A2F6929A6002D06B5 /* IntakeFormData+Extensions.swift */,
+				08AC3E482F69296B002D06B5 /* IntakeFormData.swift */,
+				082F137A2F5D5E6600176A1E /* LegalResource.swift */,
+				082F136F2F5D512000176A1E /* RightsArticle.swift */,
+				082F13682F584A3900176A1E /* LanguageSettings.swift */,
+				082F136A2F58CBA000176A1E /* Views */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		082F136A2F58CBA000176A1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08AC3E502F6ABE56002D06B5 /* MatchResultsView.swift */,
+				08AC3E4C2F6929F2002D06B5 /* IntakeFormView.swift */,
+				082F13802F5D680D00176A1E /* ResourceDetailView.swift */,
+				082F137E2F5D61B300176A1E /* ResourceDirectoryView.swift */,
+				082F13782F5D587E00176A1E /* RightsArticleDetailView.swift */,
+				082F13762F5D540E00176A1E /* SharedViews.swift */,
+				082F13742F5D53D900176A1E /* RightsLibraryView.swift */,
+				082F136D2F58D26900176A1E /* PrivacyPolicyView.swift */,
+				082F136B2F58CBEF00176A1E /* SettingsView.swift */,
+				082F13712F5D526600176A1E /* ViewModels */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		082F13712F5D526600176A1E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				08AC3E4E2F692B44002D06B5 /* IntakeFormViewModels.swift */,
+				082F137C2F5D5EEF00176A1E /* ResourceDirectoryViewModel.swift */,
+				082F13722F5D528700176A1E /* RightsLibraryViewModel.swift */,
+				082F133B2F526FE000176A1E /* RightsGuard */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +317,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AC3E4B2F6929C8002D06B5 /* IntakeFormData+Extensions.swift in Sources */,
+				082F136C2F58CBFC00176A1E /* SettingsView.swift in Sources */,
+				082F13752F5D53E400176A1E /* RightsLibraryView.swift in Sources */,
+				082F13732F5D52AC00176A1E /* RightsLibraryViewModel.swift in Sources */,
+				08AC3E4D2F6929F8002D06B5 /* IntakeFormView.swift in Sources */,
+				082F13812F5D681C00176A1E /* ResourceDetailView.swift in Sources */,
+				082F13702F5D512800176A1E /* RightsArticle.swift in Sources */,
+				082F137F2F5D61C400176A1E /* ResourceDirectoryView.swift in Sources */,
+				08AC3E512F6ABE5D002D06B5 /* MatchResultsView.swift in Sources */,
+				08AC3E492F692975002D06B5 /* IntakeFormData.swift in Sources */,
+				082F13792F5D588C00176A1E /* RightsArticleDetailView.swift in Sources */,
+				08AC3E4F2F692B51002D06B5 /* IntakeFormViewModels.swift in Sources */,
+				082F137B2F5D5E6F00176A1E /* LegalResource.swift in Sources */,
+				082F136E2F58D27A00176A1E /* PrivacyPolicyView.swift in Sources */,
+				082F13692F584A4700176A1E /* LanguageSettings.swift in Sources */,
+				082F137D2F5D5EFF00176A1E /* ResourceDirectoryViewModel.swift in Sources */,
+				082F13772F5D541600176A1E /* SharedViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AC3E5B2F760057002D06B5 /* PrivacyArchitecture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,8 +492,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W77L8YVZZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -402,13 +503,15 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ImmigrationAlly.RightsGuard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.student.rightsguard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -424,8 +527,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W77L8YVZZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -433,13 +538,15 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ImmigrationAlly.RightsGuard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.student.rightsguard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
