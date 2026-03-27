@@ -6,6 +6,8 @@
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+---
+
 ## 📱 About
 
 RightsGuard helps immigrants understand their legal rights and find resources. The app is designed with privacy as the core principle:
@@ -23,6 +25,8 @@ RightsGuard helps immigrants understand their legal rights and find resources. T
 - **Resource Matcher**: Anonymous intake form to find resources matching your specific needs
 - **Complete Privacy**: No personal information ever leaves your device
 
+---
+
 ## 🚀 Installation Guide
 
 ### Requirements
@@ -32,38 +36,20 @@ RightsGuard helps immigrants understand their legal rights and find resources. T
 - **iPhone or iPad** running iOS 17 or later
 - **USB cable** to connect device to Mac
 
-### Quick Start
+### Step-by-Step Installation
 
-1. Download this repository (Code → Download ZIP)
-2. Open `RightsGuard.xcodeproj` in Xcode
-3. Connect your iPhone/iPad
-4. Click the Play button (▶️)
-5. Trust the developer certificate on your device
+#### 1. Install Xcode
 
-**Detailed instructions:** See [INSTALLATION.md](INSTALLATION.md)
+1. Open **Mac App Store**
+2. Search for **"Xcode"**
+3. Click **Get** (it's free but large, ~7GB download)
+4. Wait for installation to complete (may take 30-60 minutes)
 
-## 🛡️ Privacy & Security
+#### 2. Download RightsGuard
 
-RightsGuard is built with privacy as the foundation:
+**Option A: Download ZIP**
+1. Click the green **Code** button above
+2. Select **Download ZIP**
+3. Unzip the file to your Desktop
 
-- **Zero data collection**: No analytics, tracking, or telemetry
-- **No internet connection**: Works completely offline
-- **Local storage only**: Only language preference stored on device
-- **No account required**: No registration, login, or personal information
-- **Open source**: All code is public for transparency
-
-## 🤝 Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) for details
-
-## 🙏 Acknowledgments
-
-Built to empower immigrant communities with accessible, privacy-respecting technology.
-
----
-
-**Made with ❤️ for immigrant communities**
+**Option B: Using Git (if installed)**
